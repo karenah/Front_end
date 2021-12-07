@@ -1,0 +1,30 @@
+<template>
+    <html>
+    <head>
+        <title></title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <div class="titulo">
+            <h1>BIENVENIDO A CONSULTAS Y REGISTROS DE PRUEBAS COVID</h1>
+          </div>
+          <div class="titulo_2">
+            <h2>Seleccione la opción que deseas utilizar</h2>
+          </div>
+          <div class="opciones">
+          <div>
+            
+            <center><input type="radio" value="Agregar Información"><a>Agregar Información</a>
+            <center><input type="radio" value="Editar Información"><a>Editar Información</a>
+            <center><input type="radio" value="Consultar por departamento"><a>Consultar por departamento</a><center>
+            <center><input type="radio" value="Consultas por tipo"><a>Consultas por tipo</a><center>
+            </div>
+          </div>
+          <div class="boton">
+            <button>CONTINUAR</button>
+          </div>
+    </body>
+</html>
+  
+</template>
